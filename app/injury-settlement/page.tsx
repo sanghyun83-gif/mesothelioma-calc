@@ -38,10 +38,10 @@ export default function InjurySettlementPage() {
     };
 
     const severityOptions = [
-        { value: "minor", label: "Minor", desc: "Soft tissue, bruises", multiplier: "1.5-3x" },
-        { value: "moderate", label: "Moderate", desc: "Fractures, sprains", multiplier: "3-5x" },
-        { value: "severe", label: "Severe", desc: "Surgery required", multiplier: "5-10x" },
-        { value: "catastrophic", label: "Catastrophic", desc: "Permanent injury", multiplier: "10-25x" },
+        { value: "minor", label: "Stage 1", desc: "Localized tumor, best prognosis", multiplier: "1.5-3x" },
+        { value: "moderate", label: "Stage 2", desc: "Spread to nearby tissue", multiplier: "3-5x" },
+        { value: "severe", label: "Stage 3", desc: "Spread to lymph nodes", multiplier: "5-10x" },
+        { value: "catastrophic", label: "Stage 4", desc: "Metastatic disease", multiplier: "10-25x" },
     ];
 
     return (
